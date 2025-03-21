@@ -7,19 +7,19 @@
 Data Science Using AI: Air Quality Assessment
 <br><br>
 Project Overview
-br>
+<br><br>
 This project focuses on air quality assessment across various regions using AI. The dataset consists of 5000 samples and captures critical environmental and demographic factors that influence pollution levels. The goal is to analyze air quality based on different features and classify pollution levels.
 <br>
 Dataset Description
-br>
+<br>
 The dataset includes multiple environmental parameters that contribute to air pollution.
 <br><br>
 Key Features
-<br>
+<br><br>
 Temperature (°C): Average temperature of the region.
 <br>
 Humidity (%): Relative humidity recorded in the region.
-br>
+<br>
 PM2.5 Concentration (µg/m³): Fine particulate matter levels.
 <br>
 PM10 Concentration (µg/m³): Coarse particulate matter levels.
@@ -35,7 +35,7 @@ Proximity to Industrial Areas (km): Distance to the nearest industrial zone.
 Population Density (people/km²): Number of people in the region.
 <br>
 Required Output
-br>
+<br><br>
 The target variable is Air Quality Levels, classified into four categories:
 <br><br>
 Good: Clean air with low pollution levels.
@@ -47,33 +47,57 @@ Poor: Noticeable pollution that may cause health issues for sensitive groups.
 Hazardous: Highly polluted air posing serious health risks to the population.
 <br><br>
 Objective
-<br>
+<br><br>
 The project aims to:
 <br>
 Perform exploratory data analysis (EDA) to understand pollution patterns.
+<br>
 Build a visualization to highlight key trends in air quality.
+<br>
 Develop a classification model to predict air quality levels based on environmental features.
+<br><br>
 Technologies Used
+<br><br>
 Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)
+<br>
 Machine Learning (Supervised Learning Algorithms)
+<br>
 Jupyter Notebook
+<br>
 Installation & Usage
+<br>
 Clone this repository:
+<br>
 bash
+<br>
 Copy code
+<br>
 git clone https://github.com/yourusername/air-quality-ai.git
+<br>
 cd air-quality-ai
+<br>
 Install dependencies:
+<br>
 bash
+<br>
 Copy code
+<br>
 pip install -r requirements.txt
+<br>
 Run the analysis:
+<br>
 bash
+<br>
 Copy code
+<br>
 jupyter notebook
+<br><br>
 Project Structure
+<br><br>
 bash
+<br>
 Copy code
+<br>
 📂 air-quality-ai
  ├── 📁 data             # Dataset files
  ├── 📁 notebooks        # Jupyter notebooks for analysis
@@ -82,7 +106,11 @@ Copy code
  ├── requirements.txt    # Dependencies
  ├── README.md           # Project documentation
  ├── main.py             # Script to run the model
+ <br><br>
 Future Improvements
+<br><br>
 Enhance feature selection for better model accuracy.
+<br>
 Implement deep learning models for improved predictions.
+<br>
 Develop a web-based dashboard to visualize real-time air quality data.
