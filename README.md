@@ -5,33 +5,51 @@
 ![WhatsApp Image 2025-03-21 at 1 58 27 PM (6)](https://github.com/user-attachments/assets/258a3089-87cc-49d8-ba51-010d4162a551)
 
 Data Science Using AI: Air Quality Assessment
-<br>
+<br><br>
 Project Overview
+br>
 This project focuses on air quality assessment across various regions using AI. The dataset consists of 5000 samples and captures critical environmental and demographic factors that influence pollution levels. The goal is to analyze air quality based on different features and classify pollution levels.
 <br>
 Dataset Description
+br>
 The dataset includes multiple environmental parameters that contribute to air pollution.
-
+<br><br>
 Key Features
+<br>
 Temperature (°C): Average temperature of the region.
+<br>
 Humidity (%): Relative humidity recorded in the region.
+br>
 PM2.5 Concentration (µg/m³): Fine particulate matter levels.
+<br>
 PM10 Concentration (µg/m³): Coarse particulate matter levels.
+<br>
 NO₂ Concentration (ppb): Nitrogen dioxide levels.
+<br>
 SO₂ Concentration (ppb): Sulfur dioxide levels.
+<br>
 CO Concentration (ppm): Carbon monoxide levels.
+<br>
 Proximity to Industrial Areas (km): Distance to the nearest industrial zone.
+<br>
 Population Density (people/km²): Number of people in the region.
+<br>
 Required Output
+br>
 The target variable is Air Quality Levels, classified into four categories:
-
+<br><br>
 Good: Clean air with low pollution levels.
+<br>
 Moderate: Acceptable air quality with some pollutants present.
+<br>
 Poor: Noticeable pollution that may cause health issues for sensitive groups.
+<br>
 Hazardous: Highly polluted air posing serious health risks to the population.
+<br><br>
 Objective
+<br>
 The project aims to:
-
+<br>
 Perform exploratory data analysis (EDA) to understand pollution patterns.
 Build a visualization to highlight key trends in air quality.
 Develop a classification model to predict air quality levels based on environmental features.
