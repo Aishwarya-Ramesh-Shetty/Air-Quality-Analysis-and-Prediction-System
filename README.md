@@ -5,9 +5,10 @@
 ![WhatsApp Image 2025-03-21 at 1 58 27 PM (6)](https://github.com/user-attachments/assets/258a3089-87cc-49d8-ba51-010d4162a551)
 
 Data Science Using AI: Air Quality Assessment
+<br>
 Project Overview
 This project focuses on air quality assessment across various regions using AI. The dataset consists of 5000 samples and captures critical environmental and demographic factors that influence pollution levels. The goal is to analyze air quality based on different features and classify pollution levels.
-
+<br>
 Dataset Description
 The dataset includes multiple environmental parameters that contribute to air pollution.
 
